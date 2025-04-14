@@ -2,11 +2,11 @@
 
 This repository contains the Commodore 64 BASIC and KERNAL source in a format that is easy to edit and can be built using modern tools on modern systems. It is derived from the [original sources](https://www.github.com/mist64/cbmsrc), with all original symbols and comments intact.
 
-## Building
+## Building (Linux & Brew)
 
 * Requires
-	* [cc65](https://github.com/cc65/cc65).
-	* make, Python, crc32
+	* [cc65](https://github.com/cc65/cc65). (brew install cc65)
+	* make, Python, crc32 (sudo apt-get install libarchive-zip-perl)
 * Use `make` to build.
 * The resulting files are
 	* `basic.bin` (`$A000`-`$BFFF`): identical with basic.901226-01.bin
